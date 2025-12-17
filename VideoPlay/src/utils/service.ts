@@ -18,15 +18,7 @@ const collection = db.collection("WuHan");
 // Singleton promise to handle concurrent auth requests
 let authPromise: Promise<void> | null = null;
 
-// Util: local storage helpers
-const LS = {
-  get(key: string) {
-    try { return localStorage.getItem(key); } catch { return null; }
-  },
-  set(key: string, val: string) {
-    try { localStorage.setItem(key, val); } catch { console.warn("LS.set failed"); }
-  }
-};
+// Local storage helpers removed with cloud function features
 
 // Ensure the user is authenticated (using anonymous login)
 const ensureAuth = async (force: boolean = false) => {
@@ -92,6 +84,10 @@ const runWithAuthRetry = async <T>(operation: () => Promise<T>): Promise<T> => {
     }
     throw error;
   }
+};
+
+export const initAnonymousLogin = async () => {
+  await ensureAuth(true);
 };
 
 export const fetchVideos = async (page: number = 1, limit: number = 20, search?: string): Promise<{ data: Video[], total: number }> => {
@@ -219,218 +215,43 @@ const logDebug = (msg: string | object) => {
   window.dispatchEvent(event);
 };
 
-// Cloud Function: connect and send play instruction
-export const connectAndSendPlayInstruction = async (video: Video) => {
+// Cloud function related features have been removed
+const PATH_COLLECTION = "CloudVideoPath";
+const PATH_DOC_ID = "CloudVideoPath";
+
+export const updateCloudVideoPath = async (path: string) => {
   return runWithAuthRetry(async () => {
-    logDebug("Starting connectAndSendPlayInstruction...");
-    
-    // Ensure auth first
-    await ensureAuth();
-
-    // Build connection info
-    let connectionId = LS.get("tcb_connection_id") || "";
-    let userId = LS.get("tcb_user_id") || "";
-    const device = navigator.userAgent || "web";
-
-    // If no userId or connectionId, call connect
-    if (!connectionId || !userId) {
-      logDebug("No local connection info, registering...");
-      connectionId = `web_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`;
-      // Prefer using auth uid as userId to ensure a valid string
-      const authUid = auth.currentUser?.uid || `anon_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`;
-      userId = authUid;
-      
-      logDebug(`Calling 'connect' with userId=${userId}, connectionId=${connectionId}`);
-      const connectPayload = {
-        type: "connect",
-        userId,
-        connectionId,
-        device
-      };
-      const connectMessage = JSON.stringify(connectPayload);
-      let connectRes;
-      try {
-        connectRes = await app.callFunction({
-          name: "send-instruction",
-          data: {
-            mode: "connect",
-            connectionId,
-            userId,
-            device,
-            message: connectMessage
-          }
-        });
-      } catch (err: unknown) {
-        const message = (err as Error)?.message || "";
-        logDebug(`Connect call failed: ${message}`);
-        if (message.includes("message 参数不能为空")) {
-          logDebug("Detected 'message 参数不能为空' on connect, retrying with simple string...");
-          const retryRes = await app.callFunction({
-            name: "send-instruction",
-            data: {
-              mode: "connect",
-              connectionId,
-              userId,
-              device,
-              message: "connect"
-            }
-          });
-          connectRes = retryRes;
-        } else {
-          throw err;
-        }
-      }
-      
-      let result = (connectRes as any)?.result || {};
-      logDebug({ type: 'Connect Result', result });
-      
-      if (result.code === 400 && (result.message || "").includes("message 参数不能为空")) {
-        logDebug("Connect returned 'message 参数不能为空', retrying with simple string...");
-        const retryRes = await app.callFunction({
-          name: "send-instruction",
-          data: {
-            mode: "connect",
-            connectionId,
-            userId,
-            device,
-            message: "connect"
-          }
-        });
-        result = (retryRes as any)?.result || {};
-        logDebug({ type: 'Connect Retry Result', result });
-      }
-      
-      if (result.code !== 0) {
-        throw new Error(result.message || "连接失败");
-      }
-      
-      userId = result.data?.userId || userId;
-      LS.set("tcb_connection_id", connectionId);
-      LS.set("tcb_user_id", userId);
-    } else {
-        logDebug(`Using cached userId=${userId}, connectionId=${connectionId}`);
-    }
-
-    // Send play instruction
-    const rawMessage = {
-      type: "play",
-      videoId: video._id || "",
-      url: video.URL || "",
-      name: video.Name || "",
-      time: video.Time ?? ""
-    };
-    // Sanitize to plain JSON and strip undefined values
-    const message = JSON.parse(JSON.stringify(rawMessage));
-    if (!message || Object.keys(message).length === 0) {
-      throw new Error("播放信息为空");
-    }
-
-    const messageStr = typeof message === "string" ? message : JSON.stringify(message);
-    logDebug(`Sending message: ${messageStr}`);
-    
-    let sendRes;
+    await ensureAuth(true);
+    const col = db.collection("CloudVideoPath");
     try {
-      sendRes = await app.callFunction({
-        name: "send-instruction",
-        data: {
-          mode: "send",
-          userId,
-          connectionId,
-          message: messageStr,
-          device
-        }
-      });
-    } catch (err: unknown) {
-      const message = (err as Error)?.message || "";
-      logDebug(`First send attempt failed: ${message}`);
-      const msg = message || "";
-      if (msg.includes("message 参数不能为空")) {
-        logDebug("Detected 'message 参数不能为空' from thrown error, retrying with simple string format...");
-        const simpleMsg = `play:${video._id}`;
-        const retryRes = await app.callFunction({
-          name: "send-instruction",
-          data: {
-            mode: "send",
-            userId,
-            connectionId,
-            message: simpleMsg,
-            device
-          }
-        });
-        sendRes = retryRes;
-      } else {
-        throw err;
+      logDebug(`准备更新路径: collection=CloudVideoPath, docId=CloudVideoPath, Path=${path}`);
+      const res = await col.doc("CloudVideoPath").update({ Path: path });
+      const updated = (res as any)?.updated ?? (res as any)?.data?.updated ?? 0;
+      if (updated === 0) {
+        logDebug("文档不存在或未更新，尝试创建/覆盖文档");
+        await col.doc("CloudVideoPath").set({ Path: path });
       }
-    }
-    
-    let sendResult = sendRes.result || {};
-    logDebug({ type: 'Send Result', result: sendResult });
-
-    // Check for "message 参数不能为空" error code 400
-    if (sendResult.code === 400 && (sendResult.message || "").includes("message 参数不能为空")) {
-         logDebug("Hit 'message empty' error, retrying with simple string format...");
-         const simpleMsg = `play:${video._id}`;
-         const retryRes = await app.callFunction({
-          name: "send-instruction",
-          data: {
-            mode: "send",
-            userId,
-            connectionId,
-            message: simpleMsg,
-            device
-          }
-        });
-        sendResult = retryRes.result || {};
-        logDebug({ type: 'Retry Result', result: sendResult });
-    }
-
-    if (sendResult.code !== 0) {
-      throw new Error(sendResult.message || "指令下发失败");
-    }
-    return sendResult;
-  });
-};
-
-export const connectLoginOnly = async () => {
-  return runWithAuthRetry(async () => {
-    await ensureAuth();
-    let connectionId = LS.get("tcb_connection_id") || "";
-    let userId = LS.get("tcb_user_id") || "";
-    const device = navigator.userAgent || "web";
-    connectionId = connectionId || `web_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`;
-    userId = userId || auth.currentUser?.uid || `anon_${Date.now()}_${Math.random().toString(36).slice(2, 10)}`;
-    const payload = { type: "connect", userId, connectionId, device };
-    const message = JSON.stringify(payload);
-    logDebug(`Login-only connect: ${message}`);
-    let res;
-    try {
-      res = await app.callFunction({
-        name: "send-instruction",
-        data: { mode: "connect", connectionId, userId, device, message }
-      });
+      logDebug("路径更新成功");
+      const verify = await col.doc("CloudVideoPath").get();
+      const after = (verify?.data?.[0] || {}) as Record<string, unknown>;
+      const finalPath = (after?.Path as string) || "";
+      logDebug(`写入后校验 Path=${finalPath}`);
+      if (finalPath !== path) {
+        return { code: 206, message: "写入未生效：请检查环境ID/地域/数据库权限配置", data: { readBack: finalPath, expected: path } };
+      }
+      return { code: 0, data: { Path: finalPath } };
     } catch (e: unknown) {
       const msg = (e as Error)?.message || "";
-      logDebug(`Login-only connect failed: ${msg}`);
-      if (msg.includes("message 参数不能为空")) {
-        const retry = await app.callFunction({
-          name: "send-instruction",
-          data: { mode: "connect", connectionId, userId, device, message: "connect" }
-        });
-        res = retry;
-      } else if (msg.includes("Db or Table not exist") || msg.includes("ResourceNotFound")) {
-        logDebug("云函数依赖的数据库集合不存在，返回错误结果供前端展示");
-        res = { result: { code: 500, message: "DATABASE_COLLECTION_NOT_EXIST", data: null } } as any;
-      } else {
-        throw e;
+      if (msg.includes("Db or Table not exist") || msg.includes("ResourceNotFound")) {
+        return { code: 404, message: "集合不存在: CloudVideoPath" };
       }
+      if (msg.includes("without auth") || msg.includes("AUTH_INVALID")) {
+        return { code: 401, message: "未授权：请配置 Web 安全域名并开启匿名登录" };
+      }
+      if (msg.toLowerCase().includes("permission") || msg.includes("PermissionDenied")) {
+        return { code: 403, message: "权限不足：请在数据库权限规则中允许写入该文档" };
+      }
+      throw e;
     }
-    const result = (res as any)?.result || {};
-    logDebug({ type: 'Login-only Connect Result', result });
-    if (result.code === 0) {
-      const finalUserId = result.data?.userId || userId;
-      LS.set("tcb_connection_id", connectionId);
-      LS.set("tcb_user_id", finalUserId);
-    }
-    return result;
   });
-}
+};

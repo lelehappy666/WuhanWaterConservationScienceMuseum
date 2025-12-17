@@ -547,10 +547,6 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit@031a54704bff\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="unityplastic">
-      <HintPath>Library\PackageCache\com.unity.collab-proxy@3351acaba9c9\Lib\Editor\unityplastic.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.collab-proxy@3351acaba9c9\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
@@ -565,6 +561,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>Library\PackageCache\com.unity.visualscripting@7dcdc439b230\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@3351acaba9c9\Lib\Editor\unityplastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
@@ -1107,6 +1107,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="endel.nativewebsocket">
+      <HintPath>Library\ScriptAssemblies\endel.nativewebsocket.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
@@ -1286,6 +1290,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj" />
+    <ProjectReference Include="AVProVideo.Demos.csproj" />
+    <ProjectReference Include="AVProVideo.Extensions.UnityUI.csproj" />
+    <ProjectReference Include="AVProVideo.Extensions.VisualEffectGraph.csproj" />
+    <ProjectReference Include="_AVProVideo.Extensions.VideoPlayer.Editor.csproj" />
+    <ProjectReference Include="AVProVideo.Editor.csproj" />
+    <ProjectReference Include="_AVProVideo.Extensions.VideoPlayer.csproj" />
+    <ProjectReference Include="AVProVideo.Extensions.Timeline.csproj" />
+    <ProjectReference Include="AVProVideo.Extensions.UnityUI.Editor.csproj" />
+    <ProjectReference Include="AVProVideo.Runtime.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Layout } from '../components/Layout';
-import { fetchVideoById, connectAndSendPlayInstruction, connectLoginOnly } from '../utils/service';
+import { fetchVideoById, updateCloudVideoPath } from '../utils/service';
 import { Video } from '../utils/types';
 import { PageLoading } from '../components/Loading';
 import { Calendar, Clock, Play, Share2, Heart } from 'lucide-react';
@@ -39,33 +39,6 @@ export const VideoDetail: React.FC = () => {
       <Layout title="视频详情" showBack>
         <div className="text-center py-20 text-ios-subtext">
           <p>未找到该影片</p>
-          <div className="mt-6 flex items-center justify-center space-x-3">
-            <button
-              className=""
-              onClick={async () => {
-                if (sending) return;
-                setSending(true);
-                setSendMsg(null);
-                try {
-                  const res = await connectLoginOnly();
-                  if ((res as any)?.code === 0) {
-                    setSendMsg('登录成功');
-                  } else {
-                    const msg = (res as any)?.message || '登录失败';
-                    setSendMsg(msg);
-                  }
-                } catch (e: any) {
-                  setSendMsg(e?.message || '登录失败');
-                } finally {
-                  setSending(false);
-                }
-              }}
-              disabled={sending}
-            >
-              {sending ? '正在连接...' : '登录'}
-            </button>
-            {sendMsg && <div>{sendMsg}</div>}
-          </div>
         </div>
       </Layout>
     );
@@ -141,22 +114,18 @@ export const VideoDetail: React.FC = () => {
                 setSending(true);
                 setSendMsg(null);
                 try {
-                  const res = await connectLoginOnly();
-                  if ((res as any)?.code === 0) {
-                    setSendMsg('登录成功');
-                  } else {
-                    const msg = (res as any)?.message || '登录失败';
-                    setSendMsg(msg);
-                  }
-                } catch (e: any) {
-                  setSendMsg(e?.message || '登录失败');
+                  await updateCloudVideoPath((video as Video).Name);
+                  setSendMsg('播放成功');
+                } catch (e: unknown) {
+                  const msg = (e as { message?: string })?.message || '播放失败';
+                  setSendMsg(msg);
                 } finally {
                   setSending(false);
                 }
               }}
               disabled={sending}
             >
-              {sending ? '正在连接...' : '登录'}
+              {sending ? '正在播放...' : '播放'}
             </button>
             {sendMsg && <div>{sendMsg}</div>}
           </div>

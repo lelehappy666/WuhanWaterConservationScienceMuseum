@@ -1,0 +1,598 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.46f1 (fb93bc360d3a) revision 16487356'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'zh' Physical Memory: 48961 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.0.46f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+E:/WuhanWaterConservationScienceMuseum/网页点播视频/VideoPlay_TenXunCloud
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+4917
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: E:/WuhanWaterConservationScienceMuseum/网页点播视频/VideoPlay_TenXunCloud
+E:/WuhanWaterConservationScienceMuseum/网页点播视频/VideoPlay_TenXunCloud
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [763192]  Target information:
+
+Player connection [763192]  * "[IP] 192.168.10.3 [Port] 0 [Flags] 2 [Guid] 2366859632 [EditorId] 2366859632 [Version] 1048832 [Id] WindowsEditor(7,lele) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [763192] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [763192] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 46.68 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.46f1 (fb93bc360d3a)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.0.46f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/WuhanWaterConservationScienceMuseum/网页点播视频/VideoPlay_TenXunCloud/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 (ID=0x2d05)
+    Vendor:   NVIDIA
+    VRAM:     7807 MB
+    Driver:   32.0.15.8142
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.0.46f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.0.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.0.46f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56088
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.0.46f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/6000.0.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015895 seconds.
+- Loaded All Assemblies, in  0.615 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.478 seconds
+Domain Reload Profiling: 1083ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (207ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (196ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (480ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (409ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (185ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.172 seconds
+Refreshing native plugins compatible for Editor in 27.87 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 27.55 ms, found 6 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.058 seconds
+Domain Reload Profiling: 2212ms
+	BeginReloadAssembly (287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (73ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (732ms)
+		LoadAssemblies (617ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (267ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (172ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1059ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (805ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (515ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Shader 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY': fallback shader 'AVProVideo/VR/InsideSphere Unlit (stereo+fog)' not found
+WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Shader 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES': fallback shader 'AVProVideo/Internal/UI/Transparent Packed (stereo)' not found
+WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 30.82 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 224 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6259 unused Assets / (3.7 MB). Loaded Objects now: 6861.
+Memory consumption went from 168.7 MB to 165.0 MB.
+Total: 20.082400 ms (FindLiveObjects: 1.449400 ms CreateObjectMapping: 2.093800 ms MarkObjects: 9.636300 ms  DeleteObjects: 6.899600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 198130.933445 seconds.
+  path: Assets/AVProVideo/Demos/Common/LookAround360.cs
+  artifactKey: Guid(0e87d2abb8af1da4aa3e1949ee6d680d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/LookAround360.cs using Guid(0e87d2abb8af1da4aa3e1949ee6d680d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f9afb83fe9caa0b62b35bc53f02d54df') in 0.3793225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/TutorialInfo/Layout.wlt
+  artifactKey: Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Layout.wlt using Guid(eabc9546105bf4accac1fd62a63e88e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79116b3f4e308cfd8c97af733980683f') in 0.0068334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AVProVideo/Runtime/Shaders/AVProVideo-VR-InsideSphere-StereoUV.shader
+  artifactKey: Guid(08ccc6021f136814494572dcad0c489d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Shaders/AVProVideo-VR-InsideSphere-StereoUV.shader using Guid(08ccc6021f136814494572dcad0c489d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4781e6180b92dd710c19d778b155f1c2') in 0.0136594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '740df00ddfe9476dff483be8f18ce67c') in 0.0361125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/background_box.png
+  artifactKey: Guid(2afddb79f89837e43aa9160cbc3fd1f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/background_box.png using Guid(2afddb79f89837e43aa9160cbc3fd1f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db0ffefd5d6ada39a6d048e0c5b507bd') in 0.0593959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7c92879dedb8b4db6a889cd2739220a3') in 0.0570896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/AVProVideo/Runtime/Shaders/AVProVideo-Skybox-Cube3x2.shader
+  artifactKey: Guid(7a533059caadf0a4388b91e05079e0d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Shaders/AVProVideo-Skybox-Cube3x2.shader using Guid(7a533059caadf0a4388b91e05079e0d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37c8674bd5c06959b84082a984eddd26') in 0.0112738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/AVProVideo/Runtime/Shaders/AVProVideo-Unlit-AndroidOES.shader
+  artifactKey: Guid(eb44a525a7e2c6640a8cd90fd7fabce4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Shaders/AVProVideo-Unlit-AndroidOES.shader using Guid(eb44a525a7e2c6640a8cd90fd7fabce4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b763bf879dce8facee0caa73e1b0d46f') in 0.0083328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/AVProVideo/Runtime/Shaders/AVProVideo-VR-InsideSphere.shader
+  artifactKey: Guid(46b84ca7ab6291e4fb6c57ac48d01e8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Shaders/AVProVideo-VR-InsideSphere.shader using Guid(46b84ca7ab6291e4fb6c57ac48d01e8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '09ebd7addae1cb1578121a48eefc0ce5') in 0.012882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/AVProVideo/Runtime/Shaders/AVProVideo-VR-InsideSphere-Transparent-AndroidOES.shader
+  artifactKey: Guid(d077c188d5d1c7c4f82531e47eb896a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Shaders/AVProVideo-VR-InsideSphere-Transparent-AndroidOES.shader using Guid(d077c188d5d1c7c4f82531e47eb896a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '316fb236ff010ce9c60ce3fda201fbcf') in 0.0119778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer_Upgrade.cs
+  artifactKey: Guid(2e1421b74b1861b42ba7287d322c2f19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer_Upgrade.cs using Guid(2e1421b74b1861b42ba7287d322c2f19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2e8d3aa8dc75fa5d0c792a575fb3397') in 0.0139264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer_TimeScale.cs
+  artifactKey: Guid(cdb92d6bab7106944bcd3cd7a034df6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer_TimeScale.cs using Guid(cdb92d6bab7106944bcd3cd7a034df6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a78c27f1d19c5b8a8c46d86f95efa5a') in 0.0120793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI.shader
+  artifactKey: Guid(8b83f1522b53ad44a9a271e7db8aa527) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI.shader using Guid(8b83f1522b53ad44a9a271e7db8aa527) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b100e5cd793e571742586bed5e2cd8c') in 0.0102918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/VideoTrackLine.prefab
+  artifactKey: Guid(580615174d55e5a4585702950fe00bdf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/VideoTrackLine.prefab using Guid(580615174d55e5a4585702950fe00bdf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6919465465c13db276a1c1c649f689dc') in 0.0952028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Components/UpdateMultiPassStereo.cs
+  artifactKey: Guid(8b2366b5575fcba46a0f97038fb6c5fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Components/UpdateMultiPassStereo.cs using Guid(8b2366b5575fcba46a0f97038fb6c5fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf1fd2623cc8aad477f3a8affc08fa4b') in 0.0095885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/Windows/x86_64/AVProVideo.dll
+  artifactKey: Guid(47103a0dd0066fb4b8e31c75c49c2f04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/Windows/x86_64/AVProVideo.dll using Guid(47103a0dd0066fb4b8e31c75c49c2f04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b8ddbecbe90c9a5b094969c4f17a224') in 0.0116893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer_Subtitles.cs
+  artifactKey: Guid(f4ed2744d6ff80845bbbd59e8f6c732b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer_Subtitles.cs using Guid(f4ed2744d6ff80845bbbd59e8f6c732b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1edff7546762387131274c067ddf0b52') in 0.0103256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/OptionsQualityPage.cs
+  artifactKey: Guid(28c89ed8f05b65044b06552408e7ab79) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/OptionsQualityPage.cs using Guid(28c89ed8f05b65044b06552408e7ab79) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd49f925d68a95ef644b6d3ffaca5af8') in 0.0188135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer_EditorMute.cs
+  artifactKey: Guid(16be519f584387149bd75947276c3a72) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer_EditorMute.cs using Guid(16be519f584387149bd75947276c3a72) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '59f3a5a35d92c38360b90a4571ed439d') in 0.0152481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AVProVideo/Editor/Scripts/Components/ApplyToMaterialEditor.cs
+  artifactKey: Guid(60268ddd706f2f1469acb32edab1dea9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Editor/Scripts/Components/ApplyToMaterialEditor.cs using Guid(60268ddd706f2f1469acb32edab1dea9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea4f50fadcadbef47c00f22ca4d1b39b') in 0.0273314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AVProVideo/Extensions/UnityUI/Runtime/SubtitlesUGUI.cs
+  artifactKey: Guid(2d4bbe43657314a49a5f730e66dafebd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Extensions/UnityUI/Runtime/SubtitlesUGUI.cs using Guid(2d4bbe43657314a49a5f730e66dafebd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ece118dd330f66dcb5d1aaafce54d1d2') in 0.0188348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/SubtitleLine.prefab
+  artifactKey: Guid(974b97843636e6841af4b649195a68db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/SubtitleLine.prefab using Guid(974b97843636e6841af4b649195a68db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd33f7fbf382952a73e2045b325b50183') in 0.1000729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Internal/Tracks.cs
+  artifactKey: Guid(087e0a6fc1bd92e4bbd96796ec593162) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Internal/Tracks.cs using Guid(087e0a6fc1bd92e4bbd96796ec593162) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a4db1f101370adf6319345aa78d5431') in 0.0095227 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Components/DisplayIMGUI.cs
+  artifactKey: Guid(75f3b319d2d69934d8bf545ab45c918d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Components/DisplayIMGUI.cs using Guid(75f3b319d2d69934d8bf545ab45c918d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a311d14d88f1dbd432683deece14db37') in 0.011421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Internal/Utils/KeyAuthData.cs
+  artifactKey: Guid(0e784fab214313d44aaa5906743860fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Internal/Utils/KeyAuthData.cs using Guid(0e784fab214313d44aaa5906743860fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '004eaf683099d0546aaa5816a6864f37') in 0.0132616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/Android/libs/x86/libopusJNI.so
+  artifactKey: Guid(fef09def6abbb10498a91d1ccf15473a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/Android/libs/x86/libopusJNI.so using Guid(fef09def6abbb10498a91d1ccf15473a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f35b97322f70edd35795ecae6c545ff') in 0.0107421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AVProVideo/Editor/Scripts/Components/MediaPlayerEditor_Source.cs
+  artifactKey: Guid(d48dbd69cf9694e439fa465103879d35) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Editor/Scripts/Components/MediaPlayerEditor_Source.cs using Guid(d48dbd69cf9694e439fa465103879d35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e62a3f0cd43580f76fd46629e1c53d0b') in 0.0072716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AVProVideo/Editor/Scripts/PostProcessBuild_macOS.cs
+  artifactKey: Guid(b5e7d0eecf59540cca67bfad3855cef1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Editor/Scripts/PostProcessBuild_macOS.cs using Guid(b5e7d0eecf59540cca67bfad3855cef1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '998e3c57fb09e2bc8c2318361bbcabb6') in 0.0085205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AVProVideo/Licenses/Hap-License.txt
+  artifactKey: Guid(913089523f966664fa6e14e68ef44722) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Licenses/Hap-License.txt using Guid(913089523f966664fa6e14e68ef44722) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '960277c38bc45f2ff0d9b49cbc6b3010') in 0.0095502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AVProVideo/Runtime/Shaders/Resources/AVProVideo-Internal-UI-Default-Stereo.shader
+  artifactKey: Guid(018fe741dec71f14bb43801a31a07303) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Shaders/Resources/AVProVideo-Internal-UI-Default-Stereo.shader using Guid(018fe741dec71f14bb43801a31a07303) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3363e3e1c7a3e20eb197b2104d899e11') in 0.0096874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Internal/AudioOutputManager.cs
+  artifactKey: Guid(714026a371bd2d64c86edb3dab5607d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Internal/AudioOutputManager.cs using Guid(714026a371bd2d64c86edb3dab5607d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6913303d28e30aac81cc9fc11342611') in 0.0082574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer_Events.cs
+  artifactKey: Guid(6be886b3f1f953843bda70e505701ee3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer_Events.cs using Guid(6be886b3f1f953843bda70e505701ee3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42a4818ef4ca2aaeb8708d8f835434f3') in 0.010171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/WSA/UWP/ARM64/AVProVideoWinRT.dll
+  artifactKey: Guid(1d02b97c55098e94aa26100231b66a52) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/WSA/UWP/ARM64/AVProVideoWinRT.dll using Guid(1d02b97c55098e94aa26100231b66a52) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1b6c850463eff01619930d659ed253c') in 0.0135232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/WSA/UWP/x86_64/Audio360.dll
+  artifactKey: Guid(9b25c194f2b9d8d48a0cd13422c0fbe9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/WSA/UWP/x86_64/Audio360.dll using Guid(9b25c194f2b9d8d48a0cd13422c0fbe9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '23341c8f1452f7c8981fd97dfb8432dd') in 0.008715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/WSA/UWP/x86_64/AVProVideoWinRT.dll
+  artifactKey: Guid(f0dcaa0e9423f364cadec44ece659971) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/WSA/UWP/x86_64/AVProVideoWinRT.dll using Guid(f0dcaa0e9423f364cadec44ece659971) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0551050cfa8e60b6313605d08e10dbad') in 0.0145343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/Android/libs/armeabi-v7a/libopus.so
+  artifactKey: Guid(d252582ae2a235546bff54c3b37c9d91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/Android/libs/armeabi-v7a/libopus.so using Guid(d252582ae2a235546bff54c3b37c9d91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bd661c6a278cf54ecde126dc1f23e5b') in 0.0079272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Internal/Players/WindowsRtMediaPlayer.cs
+  artifactKey: Guid(7b04c4ad4a3b8c44a98a08ea2ae71a6d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Internal/Players/WindowsRtMediaPlayer.cs using Guid(7b04c4ad4a3b8c44a98a08ea2ae71a6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0bd3e3b204c1ed02be1b47c359fe093e') in 0.0098886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Internal/Players/WindowsMediaPlayer_BufferedFrames.cs
+  artifactKey: Guid(2b36cc2d6962ce34e86c5a83a0de6d4a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Internal/Players/WindowsMediaPlayer_BufferedFrames.cs using Guid(2b36cc2d6962ce34e86c5a83a0de6d4a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '897743f7f942cf4c5fac7338ba380fde') in 0.0065597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/Android/libs/arm64-v8a/libAVProVideo2Native.so
+  artifactKey: Guid(16580ba152d1f204a9d04de92628f82e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/Android/libs/arm64-v8a/libAVProVideo2Native.so using Guid(16580ba152d1f204a9d04de92628f82e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7aed3f6130af9c127ba2b83ce8ba14b') in 0.0080154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AVProVideo/Extensions/UnityUI/Editor/DisplayUGUIEditor.cs
+  artifactKey: Guid(0e20933bfdb909544b98bc0de2926c4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Extensions/UnityUI/Editor/DisplayUGUIEditor.cs using Guid(0e20933bfdb909544b98bc0de2926c4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1a61d9b8c7f1d5a22d122dd6728aa965') in 0.0073405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/OverlayManager.cs
+  artifactKey: Guid(382afb28aa5a7f1428ffeab5b7d15625) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/OverlayManager.cs using Guid(382afb28aa5a7f1428ffeab5b7d15625) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89fe36abdd97aa4c62f9aaa6f7dca5ed') in 0.0069029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/OptionsAudioTrackPage.cs
+  artifactKey: Guid(bd6140ce655d4fa41847c12e54d95e45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/OptionsAudioTrackPage.cs using Guid(bd6140ce655d4fa41847c12e54d95e45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97fd2a58c8fb95f055d5f5e21ce1eea0') in 0.007345 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/Android/libs/x86_64/libAudio360.so
+  artifactKey: Guid(4d539d2d2743e8249a0f76ce055b763c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/Android/libs/x86_64/libAudio360.so using Guid(4d539d2d2743e8249a0f76ce055b763c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f92338961949fc2d4c54f06b91b9b342') in 0.0061054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AVProVideo/Runtime/Shaders/Resources/AVProVideo-Internal-Transition.shader
+  artifactKey: Guid(73f378cafe7b4a745907b70e76bb3259) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Shaders/Resources/AVProVideo-Internal-Transition.shader using Guid(73f378cafe7b4a745907b70e76bb3259) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdbf1fd019b34206e160e4cf7a981007') in 0.0058765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer.cs
+  artifactKey: Guid(638c870cac4da414fba921606d504407) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Components/MediaPlayer.cs using Guid(638c870cac4da414fba921606d504407) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e2d24113c62c669cfccc0f308a231105') in 0.0068051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Components/RequestPermissions.cs
+  artifactKey: Guid(7e15feb7befc4d840b7b08701a4fad4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Components/RequestPermissions.cs using Guid(7e15feb7befc4d840b7b08701a4fad4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '02d509963c48b9cc2435f7d2f31bac3e') in 0.0067148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/Android/libs/arm64-v8a/libopus.so
+  artifactKey: Guid(16580ba152d1f204a9d04de92628f83e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/Android/libs/arm64-v8a/libopus.so using Guid(16580ba152d1f204a9d04de92628f83e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a2644fa5916081d244491a32233c711') in 0.007954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/QualityLine.prefab
+  artifactKey: Guid(8e26a452def4cad4596d16052c72219e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/QualityLine.prefab using Guid(8e26a452def4cad4596d16052c72219e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9cfd63c507cea63f7cafd02519acbb65') in 0.0251153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AVProVideo/Demos/Scenes/Demo_DisplayComponents.unity
+  artifactKey: Guid(4313ef3d8aef8764ea98fd3a15361c9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Scenes/Demo_DisplayComponents.unity using Guid(4313ef3d8aef8764ea98fd3a15361c9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43602a25da6d95dc1385c4ae0c1c8944') in 0.0170852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

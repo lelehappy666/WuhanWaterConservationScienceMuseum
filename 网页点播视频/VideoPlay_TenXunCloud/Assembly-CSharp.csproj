@@ -48,7 +48,20 @@
     <Analyzer Include="D:\Unity\6000.0.46f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HttpCloudFunctionCaller.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\CloudBaseFunctionCaller.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\AVProVideo\Licenses\LibSamplerate-License.txt" />
+    <None Include="Assets\AVProVideo\Licenses\Hap-License.txt" />
+    <None Include="Assets\AVProVideo\Licenses\Hap-3rdParty.txt" />
+    <None Include="Assets\AVProVideo\Licenses\GdclMpeg4-License.txt" />
+    <None Include="Assets\AVProVideo\Licenses\Third-Party Notices.txt" />
+    <None Include="Assets\AVProVideo\Licenses\FacebookAudio360-License.txt" />
+    <None Include="Assets\AVProVideo\Licenses\HapInAvFoundation-License.txt" />
+    <None Include="Assets\AVProVideo\Docs\Documentation.txt" />
+    <None Include="Assets\AVProVideo\Licenses\ExoPlayer-License.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -1039,6 +1052,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="endel.nativewebsocket">
+      <HintPath>Library\ScriptAssemblies\endel.nativewebsocket.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
       <Private>False</Private>
@@ -1217,6 +1234,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="AVProVideo.Demos.csproj" />
+    <ProjectReference Include="AVProVideo.Extensions.UnityUI.csproj" />
+    <ProjectReference Include="AVProVideo.Extensions.VisualEffectGraph.csproj" />
+    <ProjectReference Include="_AVProVideo.Extensions.VideoPlayer.Editor.csproj" />
+    <ProjectReference Include="AVProVideo.Editor.csproj" />
+    <ProjectReference Include="_AVProVideo.Extensions.VideoPlayer.csproj" />
+    <ProjectReference Include="AVProVideo.Extensions.Timeline.csproj" />
+    <ProjectReference Include="AVProVideo.Extensions.UnityUI.Editor.csproj" />
+    <ProjectReference Include="AVProVideo.Runtime.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
