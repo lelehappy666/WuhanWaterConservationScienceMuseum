@@ -1,0 +1,17 @@
+{
+  "envId": "test-3goem7h983cb2f0e",
+  "region": "ap-shanghai",
+  "framework": {
+    "name": "video-library",
+    "plugins": {
+      "client": {
+        "use": "@cloudbase/framework-plugin-website",
+        "inputs": {
+          "buildCommand": "npm run build",
+          "outputPath": "dist",
+          "cloudPath": "/"
+        }
+      }
+    }
+  }
+}
