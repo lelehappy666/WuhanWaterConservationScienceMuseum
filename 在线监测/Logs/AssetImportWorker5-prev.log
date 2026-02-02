@@ -1,0 +1,834 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/staging' branch; Version is '6000.2.10f1 (d3d30d158480) revision 13882125'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lele7" at "2026-02-02T01:46:53.0655933Z"
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'zh' Physical Memory: 48961 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-02-02T01:46:53Z
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.2.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+E:/WuhanWaterConservationScienceMuseum/在线监测
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+8741
+-licensingIpc
+LicenseClient-lele7
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: E:/WuhanWaterConservationScienceMuseum/在线监测
+E:/WuhanWaterConservationScienceMuseum/在线监测
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37844]  Target information:
+
+Player connection [37844]  * "[IP] 192.168.10.3 [Port] 0 [Flags] 2 [Guid] 1490587541 [EditorId] 1490587541 [Version] 1048832 [Id] WindowsEditor(7,lele) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [37844] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [37844] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 27208, path: "D:/UnityHub/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              2f2bb5511cca436fbd64d1882e0c213e
+  Correlation Id:          843f123405de2d33c1f1ef86545eb6e4
+  External correlation Id: 8816696944906013934
+  Machine Id:              u8KMWfVxpLy2SnP+JwXBXavZzKk=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-lele7" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-lele7-notifications" at "2026-02-02T01:46:53.1104762Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 326.85 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.10f1 (d3d30d158480)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.2.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/WuhanWaterConservationScienceMuseum/在线监测/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 (ID=0x2d05)
+    Vendor:   NVIDIA
+    VRAM:     7807 MB
+    Driver:   32.0.15.8142
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.2.10f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.2.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.2.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001509 seconds.
+- Loaded All Assemblies, in  0.286 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.235 seconds
+Domain Reload Profiling: 519ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (98ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (236ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (211ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: ewogICJzdWJzR3JvdXAiIDogInVuaXR5IGVkaXRvciIsCiAgIm5hbWVzcGFjZSIgOiAidW5pdHlfZWRpdG9yIiwKICAidHlwZSIgOiAiRURJVE9SIiwKICAidGFnIiA6ICJVbml0eVBlcnNvbmFsXXXX
+  Product: Unity Personal Version
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.349 seconds
+Refreshing native plugins compatible for Editor in 6.77 ms, found 6 plugins.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 7.95 ms, found 6 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 698ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (171ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (47ms)
+				TypeCache.ScanAssembly (40ms)
+			BuildScriptInfoCaches (8ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (351ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (281ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (200ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+WARNING: Shader Unsupported: 'Vuplex/Android Web Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuplex/Android Web Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 16.66 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2008 unused Assets / (0.8 MB). Loaded Objects now: 2425.
+Memory consumption went from 70.5 MB to 69.8 MB.
+Total: 5.072300 ms (FindLiveObjects: 0.283200 ms CreateObjectMapping: 0.142500 ms MarkObjects: 3.925900 ms  DeleteObjects: 0.718000 ms)
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'Vuplex/Android Web Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuplex/Android Web Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 6.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1919 unused Assets / (0.6 MB). Loaded Objects now: 2425.
+Memory consumption went from 69.3 MB to 68.7 MB.
+Total: 6.604200 ms (FindLiveObjects: 0.212000 ms CreateObjectMapping: 0.110200 ms MarkObjects: 5.651800 ms  DeleteObjects: 0.628500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1237.064275 seconds.
+  path: Assets/Scenes/Web.unity
+  artifactKey: Guid(cb378b4a68b87084698bd1e1b655bad2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Web.unity using Guid(cb378b4a68b87084698bd1e1b655bad2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d047c9b82059b53ca07a4d82b9d78f5') in 0.0692708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/StreamingAssets/media.mp4
+  artifactKey: Guid(b4434c94e9dd44b49950a72d71c1b700) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StreamingAssets/media.mp4 using Guid(b4434c94e9dd44b49950a72d71c1b700) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f0293c160b2b8e2fb12785de0df8e3c') in 0.0036219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/StreamingAssets/AVProVideoSamples/BigBuckBunny_360p30.mp4
+  artifactKey: Guid(7527b43fd045ed54696948590f83aa55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StreamingAssets/AVProVideoSamples/BigBuckBunny_360p30.mp4 using Guid(7527b43fd045ed54696948590f83aa55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f0c3f4da2c30d566dc36f67635c12549') in 0.0047028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/StreamingAssets/AVProVideoSamples/SampleSphere.mp4
+  artifactKey: Guid(52b4b65f0e008374188bacb9d2990d1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StreamingAssets/AVProVideoSamples/SampleSphere.mp4 using Guid(52b4b65f0e008374188bacb9d2990d1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '356870156e063ae2f29cc01e0d76add5') in 0.0031054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/StreamingAssets/AVProVideoSamples/BigBuckBunny_360p30.mp3
+  artifactKey: Guid(4f746673c6abcaa458d2e762619f8c06) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StreamingAssets/AVProVideoSamples/BigBuckBunny_360p30.mp3 using Guid(4f746673c6abcaa458d2e762619f8c06) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b645e640786e2448799509bd9bf27007') in 0.0036433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/StreamingAssets/AVProVideoSamples/RenderHeads-1080p30-H264.mp4
+  artifactKey: Guid(7a3e4cd0845b37541a474f6796073db5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/StreamingAssets/AVProVideoSamples/RenderHeads-1080p30-H264.mp4 using Guid(7a3e4cd0845b37541a474f6796073db5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e87645fcd08fb91f8cde4a1450fdf5f') in 0.0030403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit Transparent (stereo+color+alpha) - Android OES ONLY' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'AVProVideo/VR/InsideSphere Unlit (stereo+color) - Android OES ONLY' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Transparent Packed (stereo) - AndroidOES' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'AVProVideo/Unlit/Opaque (texture+color+stereo support) - Android OES ONLY' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuplex/Android Web Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Vuplex/Android Web Shader' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'AVProVideo/Unlit/Transparent (texture+alpha support) - Android OES ONLY' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'AVProVideo/Internal/UI/Stereo - AndroidOES' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Refreshing native plugins compatible for Editor in 7.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 28 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2049 unused Assets / (4.3 MB). Loaded Objects now: 2530.
+Memory consumption went from 80.3 MB to 76.0 MB.
+Total: 5.523900 ms (FindLiveObjects: 0.218000 ms CreateObjectMapping: 0.139500 ms MarkObjects: 3.570900 ms  DeleteObjects: 1.594300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 36.469060 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Components/RequestPermissions.cs
+  artifactKey: Guid(7e15feb7befc4d840b7b08701a4fad4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Components/RequestPermissions.cs using Guid(7e15feb7befc4d840b7b08701a4fad4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f1d533baffe12bc5be59ef24bc014a1b') in 0.0310463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/AVProVideo/Editor/Scripts/Components/PlaylistMediaPlayerEditor.cs
+  artifactKey: Guid(c9328411ef862884f97a993c4daa9b68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Editor/Scripts/Components/PlaylistMediaPlayerEditor.cs using Guid(c9328411ef862884f97a993c4daa9b68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e4c3c87a72f1fcfb2f8126dc6257b68') in 0.0067662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AVProVideo/Editor/Scripts/Components/MediaPlayerEditor_Debug.cs
+  artifactKey: Guid(8c5649aed6704fa4199ad212f4562fdb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Editor/Scripts/Components/MediaPlayerEditor_Debug.cs using Guid(8c5649aed6704fa4199ad212f4562fdb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb6abf3160a5c20797e2e96a2440d1ed') in 0.0048109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/Android/libs/arm64-v8a/libAudio360.so
+  artifactKey: Guid(bed1fa60a484abf4aaee602523cd4615) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/Android/libs/arm64-v8a/libAudio360.so using Guid(bed1fa60a484abf4aaee602523cd4615) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8dcea86824af30a78c37edbebab4ec10') in 0.0178515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/Android/libs/arm64-v8a/libresample-rh.so
+  artifactKey: Guid(26580ba152d1f204b9d04de92628f83e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/Android/libs/arm64-v8a/libresample-rh.so using Guid(26580ba152d1f204b9d04de92628f83e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5a68e86b0c14c73a8737fd9304ba2562') in 0.0048193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/Android/libs/x86/libopusJNI.so
+  artifactKey: Guid(fef09def6abbb10498a91d1ccf15473a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/Android/libs/x86/libopusJNI.so using Guid(fef09def6abbb10498a91d1ccf15473a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7ca6056689e2b2678d9fee80c1874751') in 0.0039456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI-CC.mat
+  artifactKey: Guid(8e67518da82e8334685a53cd09579095) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI-CC.mat using Guid(8e67518da82e8334685a53cd09579095) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '402770de6c43f6975d05e423b33baa8c') in 0.0378993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI-Buffering.mat
+  artifactKey: Guid(9c36a7d03d5746f4bab781d213a86f49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/MediaPlayerUI-Buffering.mat using Guid(9c36a7d03d5746f4bab781d213a86f49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ec2bc006e7574458981ac134293219c') in 0.0061488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Internal/Players/WindowsMediaPlayer.cs
+  artifactKey: Guid(6f3c954eb61392a4193295a8376bd8db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Internal/Players/WindowsMediaPlayer.cs using Guid(6f3c954eb61392a4193295a8376bd8db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3efc43b19a0271f8a201aefaafc5625c') in 0.0029393 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/Android/libs/x86_64/libresample-rh.so
+  artifactKey: Guid(27980ba252d8f204b9d04de92628f83e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/Android/libs/x86_64/libresample-rh.so using Guid(27980ba252d8f204b9d04de92628f83e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f00e614e5915f0de4d6fa6a79569a6ae') in 0.0051151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/Android/libs/arm64-v8a/libopusJNI.so
+  artifactKey: Guid(6b6e96a3e19b669478613c9e775c45f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/Android/libs/arm64-v8a/libopusJNI.so using Guid(6b6e96a3e19b669478613c9e775c45f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fb2d927699358492582bfef23d5b2bee') in 0.004665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/AVProVideo/Editor/Scripts/Components/MediaPlayerEditor_Audio.cs
+  artifactKey: Guid(37646bf6e83e0f5429dc604d9f8b86fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Editor/Scripts/Components/MediaPlayerEditor_Audio.cs using Guid(37646bf6e83e0f5429dc604d9f8b86fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2eafba07c9f7dac8268996bf95ec83f6') in 0.003743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/AVProVideo/Extensions/UnityUI/Editor/DisplayUGUIEditor.cs
+  artifactKey: Guid(0e20933bfdb909544b98bc0de2926c4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Extensions/UnityUI/Editor/DisplayUGUIEditor.cs using Guid(0e20933bfdb909544b98bc0de2926c4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7a83ae1eaba75ccf2200a5fb4eb7bd9') in 0.0032797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/AVProVideo/Editor/Scripts/Components/MediaPlayerEditor_Windows.cs
+  artifactKey: Guid(f96124fabf3e8cb46a512e3ecdbd6a3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Editor/Scripts/Components/MediaPlayerEditor_Windows.cs using Guid(f96124fabf3e8cb46a512e3ecdbd6a3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e52cb29f53a9d19215a38c0406010723') in 0.0038035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/AVProVideo/Runtime/Scripts/Internal/Events.cs
+  artifactKey: Guid(16a5efbe992a09144ac89dde2b3e0898) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Scripts/Internal/Events.cs using Guid(16a5efbe992a09144ac89dde2b3e0898) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '539bb3088e1441faa2fedd08dce5608b') in 0.0030353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/OverlayManager.cs
+  artifactKey: Guid(382afb28aa5a7f1428ffeab5b7d15625) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/OverlayManager.cs using Guid(382afb28aa5a7f1428ffeab5b7d15625) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '557675699bd4875980486387074e48a2') in 0.0035062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AVProVideo/Editor/Scripts/Components/MediaPlayerEditor_Player.cs
+  artifactKey: Guid(09461ea66270ee847aceeb2a5fa2fb81) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Editor/Scripts/Components/MediaPlayerEditor_Player.cs using Guid(09461ea66270ee847aceeb2a5fa2fb81) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8819aa42d03de5681de486deb0ca8bf3') in 0.0035958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/background_box.png
+  artifactKey: Guid(2afddb79f89837e43aa9160cbc3fd1f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/background_box.png using Guid(2afddb79f89837e43aa9160cbc3fd1f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38ea115d160068ee65d199b97760fe47') in 0.0470893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/icon_subtitles.png
+  artifactKey: Guid(d53eb66ff0b902142ad2dc28d6528eb0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/icon_subtitles.png using Guid(d53eb66ff0b902142ad2dc28d6528eb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd91a4124f7531e801f4a25f83cff2acb') in 0.0299241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.370604 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/WSA/UWP/x86/Audio360.dll
+  artifactKey: Guid(947235627694b5843b3b3461bda59fd9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/WSA/UWP/x86/Audio360.dll using Guid(947235627694b5843b3b3461bda59fd9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7ea613497789845717c471f7863fe47') in 0.0052018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Vuplex/WebView/Core/Editor/Scripts/ScriptingSymbols.cs
+  artifactKey: Guid(e6ee0f86057d9439896db7eb0e9cf5da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Editor/Scripts/ScriptingSymbols.cs using Guid(e6ee0f86057d9439896db7eb0e9cf5da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd3b2030a46c63404c5e62b47368491fa') in 0.0038435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/KeyModifier.cs
+  artifactKey: Guid(3b6eff11b55a54b9f8a8434ca644ce4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/KeyModifier.cs using Guid(3b6eff11b55a54b9f8a8434ca644ce4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e62052858512c3771b72e630a49f523c') in 0.0051552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Scripts/StandalonePdfOptions.cs
+  artifactKey: Guid(47d332ef84d8e461b8008779b4e5f37b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Scripts/StandalonePdfOptions.cs using Guid(47d332ef84d8e461b8008779b4e5f37b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0966d6d96a56a8a4fba5eefcc262eb31') in 0.0056307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/TrialExpiredException.cs
+  artifactKey: Guid(fd3cf8440d7964bc8ba194c890b41232) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/TrialExpiredException.cs using Guid(fd3cf8440d7964bc8ba194c890b41232) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ec5d5ed27f7bb0f1c0b782eb918f63b') in 0.0068246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/IWithFallbackVideo.cs
+  artifactKey: Guid(9818173ef61cf4b3c8439876864fbebf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/IWithFallbackVideo.cs using Guid(9818173ef61cf4b3c8439876864fbebf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e1a2dcb0f71a99827248845d1347946') in 0.0046175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/Internal/BridgeMessage.cs
+  artifactKey: Guid(38008d318fa0a4f12b67f94c5ab47d3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/Internal/BridgeMessage.cs using Guid(38008d318fa0a4f12b67f94c5ab47d3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57475f99d0494cacbd23f451108c3962') in 0.0047573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/WSA/UWP/x86/AVProVideoWinRT.dll
+  artifactKey: Guid(9dba3755b2ce1ea4c8f455e959bc1bfa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/WSA/UWP/x86/AVProVideoWinRT.dll using Guid(9dba3755b2ce1ea4c8f455e959bc1bfa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee6c08a1aa3e73fd928884a7f5cba58c') in 0.0053729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/WebViewUnavailableException.cs
+  artifactKey: Guid(716668600340d4cc797ab962996430b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/WebViewUnavailableException.cs using Guid(716668600340d4cc797ab962996430b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '80a099f523ed8a2b8819b0bc133a925c') in 0.0039672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/IWithChangingTexture.cs
+  artifactKey: Guid(749ba8541c9624896bf3788189c9477e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/IWithChangingTexture.cs using Guid(749ba8541c9624896bf3788189c9477e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3be9bb59c31550bc8171789c532a85cd') in 0.0036933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Vuplex/WebView/Demos/Scripts/PopupDemo.cs
+  artifactKey: Guid(4d088d6a608fd475cb6bfcf12189176b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Demos/Scripts/PopupDemo.cs using Guid(4d088d6a608fd475cb6bfcf12189176b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a5f5da8a7ba8289d473323e7a47577ae') in 0.0041954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Vuplex/WebView/Core/Editor/Scripts/CanvasWebViewPrefabInspector.cs
+  artifactKey: Guid(bf1bcc6f301554381be0e9bdbbaf04b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Editor/Scripts/CanvasWebViewPrefabInspector.cs using Guid(bf1bcc6f301554381be0e9bdbbaf04b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be3362430c3375d0ab52401dcba9576b') in 0.0031007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/ProgressChangedEventArgs.cs
+  artifactKey: Guid(23d548b8eeeba49b1adb5553b8a8b7a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/ProgressChangedEventArgs.cs using Guid(23d548b8eeeba49b1adb5553b8a8b7a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2241bc1e7c24bc70a9d9ec00b0050b1') in 0.003812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/IWithTouch.cs
+  artifactKey: Guid(3c2b8813ef22f4aada2f80eaf23d8a8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/IWithTouch.cs using Guid(3c2b8813ef22f4aada2f80eaf23d8a8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '42d9884e206744ae3d62d5e79257dca3') in 0.0043784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Vuplex/WebView/Demos/Scripts/HardwareKeyboardListener.cs
+  artifactKey: Guid(2225d8057ba954ffbbc01b7d7e962160) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Demos/Scripts/HardwareKeyboardListener.cs using Guid(2225d8057ba954ffbbc01b7d7e962160) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82c422a79d8c11d83f69484f876c0dcb') in 0.0045409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/AVProVideo/Runtime/Plugins/WSA/UWP/x86_64/AVProVideo.dll
+  artifactKey: Guid(3b25c194f2b9d8d48a0cd13422c0fbe7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/AVProVideo/Runtime/Plugins/WSA/UWP/x86_64/AVProVideo.dll using Guid(3b25c194f2b9d8d48a0cd13422c0fbe7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '823d1b42ee03ffd200a8b8d7ea5423da') in 0.0045252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/IWithNativeOnScreenKeyboard.cs
+  artifactKey: Guid(8e0267b5209154572a139c8c40ed5f47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/IWithNativeOnScreenKeyboard.cs using Guid(8e0267b5209154572a139c8c40ed5f47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c826f828efe9cef1d872320a85dfee03') in 0.0048063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/IWithPdfCreation.cs
+  artifactKey: Guid(5f9a059d54e204756a301a65728152e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/IWithPdfCreation.cs using Guid(5f9a059d54e204756a301a65728152e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f4e34ddae2904c5061fea511f49aa23') in 0.0044396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Vuplex/WebView/Core/Materials/Resources/AndroidWebMaterial.mat
+  artifactKey: Guid(b330f1b65a93d4b708726acb581f07b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Materials/Resources/AndroidWebMaterial.mat using Guid(b330f1b65a93d4b708726acb581f07b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4c59a5835c0826777b2d359325d52d0') in 0.0062958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/WebPluginType.cs
+  artifactKey: Guid(907dd16e64ab2467e82ea4ca7ef23ca0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/WebPluginType.cs using Guid(907dd16e64ab2467e82ea4ca7ef23ca0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '233f93c2428d56df6acbe46ec9ac5703') in 0.0035288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Vuplex/WebView/Core/Editor/Textures/MockWebViewTexture.png
+  artifactKey: Guid(9f7b60728c99d4fe6b67e0d86b1e7b5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Editor/Textures/MockWebViewTexture.png using Guid(9f7b60728c99d4fe6b67e0d86b1e7b5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4747f7dcfeef650797d42c31b5da7586') in 0.0121718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/ICookieManager.cs
+  artifactKey: Guid(4f02f1602fbb4443fa664b18925d2725) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/ICookieManager.cs using Guid(4f02f1602fbb4443fa664b18925d2725) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bba7fda47a3849f7bfe99d083a793b70') in 0.0039511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Vuplex/WebView/Demos/Scripts/Vuplex.WebViewDemos.asmdef
+  artifactKey: Guid(06ab9fbb30fe649cb8c0c5c7ad6cc4d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Demos/Scripts/Vuplex.WebViewDemos.asmdef using Guid(06ab9fbb30fe649cb8c0c5c7ad6cc4d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21faa2cce689ba2a9fc7068029100274') in 0.0048764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/IWithAuth.cs
+  artifactKey: Guid(8c131b62604e2465aaf45236136a008c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/IWithAuth.cs using Guid(8c131b62604e2465aaf45236136a008c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5f62de2794c005f9a414a8a44c9d43ab') in 0.00348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.378241 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/Internal/JsonArrayWrapper.cs
+  artifactKey: Guid(da9cd306e6b6e45288631bfd09b2084f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/Internal/JsonArrayWrapper.cs using Guid(da9cd306e6b6e45288631bfd09b2084f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ab6561ce4400e125b451f1a38810754') in 0.0157079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/swiftshader/libEGL.dll
+  artifactKey: Guid(589e6c4cb4fccfd4691532089115eb13) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/swiftshader/libEGL.dll using Guid(589e6c4cb4fccfd4691532089115eb13) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ed9604714dfaa2db52a4582b0e61c49') in 0.0119507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/pt-PT.pak
+  artifactKey: Guid(fa983b3884eafe84c8ed990caf8d6041) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/pt-PT.pak using Guid(fa983b3884eafe84c8ed990caf8d6041) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d9cae6cec8484f6e73e21f36cb063e6') in 0.0227809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/fa.pak
+  artifactKey: Guid(a4610a3ca1f06d0468725a78c19d63e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/fa.pak using Guid(a4610a3ca1f06d0468725a78c19d63e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41d2a46b93480c45d03d9c1389c519e1') in 0.0071142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/dxcompiler.dll
+  artifactKey: Guid(2c79084cafabbb44fa40cd832258c87e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/dxcompiler.dll using Guid(2c79084cafabbb44fa40cd832258c87e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11432f0d5f461fb45b0afeb60b7e3094') in 0.0065517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/kn.pak
+  artifactKey: Guid(6acb666c5b063d541a5fddd469ad96f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/kn.pak using Guid(6acb666c5b063d541a5fddd469ad96f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '657e085cd2f5d57b79e95f565f836311') in 0.0059996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/ja.pak
+  artifactKey: Guid(18677a3508a027549a0a20c78683cf0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/ja.pak using Guid(18677a3508a027549a0a20c78683cf0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '680dbbe28e20b0bee540d5a5708e63be') in 0.0191505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/icudtl.dat
+  artifactKey: Guid(4d7b62d6f70323c4b83f127a6a9c5bf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/icudtl.dat using Guid(4d7b62d6f70323c4b83f127a6a9c5bf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f19fa343ed29632cadd025324fe5282a') in 0.0090395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Windows/Scripts/Vuplex.WebView.asmref
+  artifactKey: Guid(7caf78b87a9914f6a91628ecd490c585) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Windows/Scripts/Vuplex.WebView.asmref using Guid(7caf78b87a9914f6a91628ecd490c585) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afee304c115237854c44f9df10a7aaa0') in 0.005711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/hr.pak
+  artifactKey: Guid(c18435d4cae7bf74f9b7d731eff777b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/hr.pak using Guid(c18435d4cae7bf74f9b7d731eff777b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5b3966aab0d4a69feb78b4c67cc97f7') in 0.0047961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Vuplex/WebView/Documentation/static/css/1.2a013b35.chunk.css
+  artifactKey: Guid(27bf5a6ccf4314a15af28c7982b70d62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Documentation/static/css/1.2a013b35.chunk.css using Guid(27bf5a6ccf4314a15af28c7982b70d62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c07b37466a3d74f258796306452cc27') in 0.0166007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Vuplex/WebView/Documentation/static/js/1.0e25c462.chunk.jsm
+  artifactKey: Guid(b960578a883c74564be3f87636720bd4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Documentation/static/js/1.0e25c462.chunk.jsm using Guid(b960578a883c74564be3f87636720bd4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2bfa18a55c98456c4fc5cfc052dfef1') in 0.0095577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/Internal/ThreadDispatcher.cs
+  artifactKey: Guid(a89aa9d3ce78141d1ad181906bfedbb0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/Internal/ThreadDispatcher.cs using Guid(a89aa9d3ce78141d1ad181906bfedbb0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7a965deaba923028e6098d90f3236f3') in 0.0054276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/th.pak
+  artifactKey: Guid(959446ffbd9c6df418ed57cea9372533) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/th.pak using Guid(959446ffbd9c6df418ed57cea9372533) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89b3089a434cc4ac8991e5c3283a1467') in 0.0043902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/bg.pak
+  artifactKey: Guid(25e0dd9d81dc58c42a908fb0bf1d8095) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/bg.pak using Guid(25e0dd9d81dc58c42a908fb0bf1d8095) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f60796f2c35f70fb39078bbd450d9ca5') in 0.0058201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Vuplex/WebView/Core/Scripts/Internal/StringBridgeMessage.cs
+  artifactKey: Guid(230c8407af2f74dbda3facf26935c102) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Core/Scripts/Internal/StringBridgeMessage.cs using Guid(230c8407af2f74dbda3facf26935c102) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81261d231563a97d362bb66742df3e48') in 0.0049298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/fil.pak
+  artifactKey: Guid(174a378512936f342bce10c9eb99eb11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Windows/Plugins/VuplexWebViewChromium/locales/fil.pak using Guid(174a378512936f342bce10c9eb99eb11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b61476d17432c9c34c33d70f332f361') in 0.0041883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Textures/Resources/text.png
+  artifactKey: Guid(9b3a3789d650d436480f5db1f8f53ec1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Textures/Resources/text.png using Guid(9b3a3789d650d436480f5db1f8f53ec1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b519f8fcb0cc5d18ce64ff16d6342e94') in 0.008152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Vuplex/WebView/Standalone/Windows/Scripts/WindowsWebPluginRegistrant.cs
+  artifactKey: Guid(8f3d54b8a1db644399385cf8eaa07580) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Vuplex/WebView/Standalone/Windows/Scripts/WindowsWebPluginRegistrant.cs using Guid(8f3d54b8a1db644399385cf8eaa07580) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '90720533da328390262c4cd3af9d3541') in 0.0044101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
