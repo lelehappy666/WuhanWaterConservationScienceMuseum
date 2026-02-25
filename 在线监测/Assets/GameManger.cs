@@ -1,43 +1,55 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using RenderHeads.Media.AVProVideo;
+﻿using RenderHeads.Media.AVProVideo;
+using System;
+using System.Diagnostics;
+using System.IO;
 using UnityEngine;
-using Vuplex.WebView;
-using  Vuplex.Demos ;
 
 public class GameManger : MonoBehaviour
 {
     public MediaPlayer meidia;
     public DisplayUGUI displayUGUI;
-    public LoadWebURL canvasPopup;
+    public GameObject homePage;
+    public GameObject homeBack;
     // Start is called before the first frame update
     void Start()
     {
-        
+        QualitySettings.vSyncCount = 1;      // 通常锁到 60（跟显示器刷新率）
+        Application.targetFrameRate = -1;    // 用VSync就别再手动限帧
+        Application.runInBackground = false;
+        Screen.fullScreenMode = FullScreenMode.FullScreenWindow;
+        Screen.fullScreen = true;
+
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     public void OpenVideo()
     {
         displayUGUI.gameObject.SetActive(true);
-        meidia.OpenMedia(MediaPathType.RelativeToStreamingAssetsFolder,"media.mp4",true);
+        meidia.OpenVideoFromFile(MediaPlayer.FileLocation.RelativeToStreamingAssetsFolder,"media.mp4",true);
         meidia.Play();
-        canvasPopup.isOpenWebURL=false;
-        canvasPopup.mainWebViewClonePrefab.SetActive(false);
+        homePage.SetActive(false);
     }
 
     public void CloseVideo()
     {
         displayUGUI.gameObject.SetActive(false);
         meidia.Stop();
-        canvasPopup.mainWebViewClonePrefab.SetActive(true);
+        homePage.SetActive(true);
     }
     public void OpenWeb()
     {
-        canvasPopup.isOpenWebURL=true;
+        homePage.SetActive(false);
+        homeBack.SetActive(true);
+    }
+    public void CloseWeb()
+    {
+        homePage.SetActive(true);
+        homeBack.SetActive(false);
+        GetComponent<VuplexKeyboardAutoToggle>().keyboard.gameObject.SetActive(false);
     }
 }

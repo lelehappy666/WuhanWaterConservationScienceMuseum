@@ -1,11 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vuplex.WebView", "Vuplex.WebView.csproj", "{F506C722-22D7-D46A-0E7E-1B6BDA291CE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vuplex.WebViewDemos", "Vuplex.WebViewDemos.csproj", "{B2B6AF6C-F4E1-0FEB-E32C-EE6C6AA24B59}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{059119A3-0DA2-BEEA-6C38-1ECA36D83355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vuplex.WebViewDemos", "Vuplex.WebViewDemos.csproj", "{B2B6AF6C-F4E1-0FEB-E32C-EE6C6AA24B59}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{3F60194B-16CB-BF08-63DF-13A279C7EFA5}"
 EndProject
@@ -19,14 +19,14 @@ Global
 		{F506C722-22D7-D46A-0E7E-1B6BDA291CE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F506C722-22D7-D46A-0E7E-1B6BDA291CE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F506C722-22D7-D46A-0E7E-1B6BDA291CE4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B2B6AF6C-F4E1-0FEB-E32C-EE6C6AA24B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2B6AF6C-F4E1-0FEB-E32C-EE6C6AA24B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2B6AF6C-F4E1-0FEB-E32C-EE6C6AA24B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2B6AF6C-F4E1-0FEB-E32C-EE6C6AA24B59}.Release|Any CPU.Build.0 = Release|Any CPU
 		{059119A3-0DA2-BEEA-6C38-1ECA36D83355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{059119A3-0DA2-BEEA-6C38-1ECA36D83355}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{059119A3-0DA2-BEEA-6C38-1ECA36D83355}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{059119A3-0DA2-BEEA-6C38-1ECA36D83355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2B6AF6C-F4E1-0FEB-E32C-EE6C6AA24B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2B6AF6C-F4E1-0FEB-E32C-EE6C6AA24B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2B6AF6C-F4E1-0FEB-E32C-EE6C6AA24B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2B6AF6C-F4E1-0FEB-E32C-EE6C6AA24B59}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3F60194B-16CB-BF08-63DF-13A279C7EFA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3F60194B-16CB-BF08-63DF-13A279C7EFA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F60194B-16CB-BF08-63DF-13A279C7EFA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
